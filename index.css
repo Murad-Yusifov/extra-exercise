@@ -1,16 +1,4 @@
 table, th, td {
 border: 1px solid black;
-}
-.table01 {
-margin-top: 10px;
-margin-bottom: 10px;
-}
-.table02 {
 border-collapse: collapse;
-
-}
-.table03 {
-width: 200px;
-height: 100px;
-margin-top: 10px;
 }
