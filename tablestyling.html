@@ -44,7 +44,7 @@ tr {
 } */
  
 /* Hoverable */
-table {
+/* table {
   border-collapse: collapse;
   width: 100%;
 }
@@ -53,12 +53,31 @@ th,td {
   text-align: left;
   border-bottom: 1px solid black;
 }
-tr:hover {background-color: #d6eeee;}
+tr:hover {background-color: #d6eeee;} */
+
+/* colgroup */
+table, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
 
   </style>
 </head>
 <body>
   <table style="width: 100%;">
+    <!-- <colgroup>
+    <col span="2" style="background-color: skyblue;">
+    <col span="1" style="background-color: pink;">
+  </colgroup> -->
+  <!-- <colgroup>
+  <col span="2">
+  <col span="1" style="background-color: pink;">
+  </colgroup> -->
+  <colgroup>
+    <col span="2">
+    <col span="1" style="visibility:collapse;">
+    </colgroup>
+    
     <tr>
     <th>1</th>
     <th>2</th>
